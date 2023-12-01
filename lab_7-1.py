@@ -9,3 +9,16 @@ Add a statement in the function to print "Hello World!"
 Add a statement that returns the docstring for the greeting function
 Add another statement to call the function
 """
+# Liam O'Hara
+
+def greeting():
+    """
+    This function prints 'Hello World' on one line & returns the docstring.
+    """
+    print("Hello World!")
+
+    # Docstring is the greeting
+    return greeting.__doc__ 
+
+# Another statement to call the function:
+greeting()
